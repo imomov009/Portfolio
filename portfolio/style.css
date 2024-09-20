@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Popins',sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080808;
+  color: white;
+}
+#header{
+  width:100% ;
+  height:100vh ;
+  background-image:url(backgroundcolor.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 10px 10%;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header-text h1 span {
+  color: red;
+}
+
+#about{
+  padding: 80px 0 ;
+  color: aliceblue;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-1{
+  flex-basis: 35%;
+}
+
+.about-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+.about-2{
+  flex-basis: 60%;
+}
+
+.About-tittle{
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+.Lorem{
+  color: grey;
+}
+
+.tittle{
+  margin: 20px 0 40px;
+}
+.tittle-skils{
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative  ;
+}
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0 ;
+}
+
+.tab-contents ul li span{
+  color: #ff004f;
+  font-size: 14px;
+}
+
+#Courses{
+  padding: 30px 0 ;
+  
+
+}
+
+.course-lists{
+  display: flex;
+  justify-content: space-between;
+}
+.course-lists div{
+  background: #262626;
+  padding: 13px;
+  font-size:13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s,transform 0.5s;
+  margin: 20px;
+}
+
+.course-lists div h2{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.course-lists div a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.course-lists div:hover{
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin-top: 30px;
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+.btn{
+  display: inline-block;
+  background: #ff004f;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+form input,form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+} 
